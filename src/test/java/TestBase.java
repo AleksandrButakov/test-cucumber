@@ -17,8 +17,8 @@ public class TestBase {
     static void beforeAll() {
         // SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
-        baseUrl = "https://rshb.ru";
-        // baseUrl = "https://mail.ru";
+        //baseUrl = "https://rshb.ru";
+        baseUrl = "https://mail.ru";
         Configuration.browserPosition = ("0x0");
         Configuration.browserSize = "1920x1080";
 
